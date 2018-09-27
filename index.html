@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>	
+<head>
+
+	<title>GitHub user information</title>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  	<script src="js/mainJs.js"></script>
+	
+
+</head>
+<body>
+	<br />
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+		    	<input type="text" id="user" class="form-control" placeholder="User name...">
+			</div>
+			<div class="col-md-4">
+		    	<button type="button" class="btn col-sm-4" id="search">
+		    		<span class="glyphicon glyphicon-search"></span>
+		    	</button>
+			</div>
+		</div>
+		<br />
+		<table class="table table-hover">
+		    <thead>
+		      <tr>
+		        <th>Name</th>
+		        <th>Description</th>
+		        <th>Followers</th>
+		      </tr>
+		    </thead>
+		    <tbody class="repos">
+		    </tbody>
+		</table>
+	</div>
+	
+</body>
+</html>
